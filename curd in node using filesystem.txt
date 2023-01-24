@@ -1,0 +1,18 @@
+// const fs = require("fs");
+// const path = require("path");
+// const dirPath = path.join(__dirname, "curd");
+// const filePath = `${dirPath}/appendFile.txt`;
+
+// // fs.writeFileSync(filePath, "this is apple file");
+// fs.readFile(filePath, "utf8", (err, item) => {
+//   console.log(item);
+// });
+
+// fs.appendFile(filePath, "and file name is apple.txt", (err) => {
+//   if (!err) console.log("perfect");
+// });
+// fs.rename(filePath, `${dirPath}/fruit.txt`, (err) => {
+//   if (!err) console.log("perfect");
+// });
+
+// fs.unlinkSync(`${dirPath}/fruit.txt`);
